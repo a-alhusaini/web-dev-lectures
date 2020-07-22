@@ -1,0 +1,17 @@
+{
+  "name": "lecture4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "nodemon": "^2.0.4",
+    "tailwindcss": "^1.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon --exec 'npx tailwindcss build index.css -o output.css'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
